@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_58872_needit.dueSoonNeedITTasks</event_name>
+        <name>Update dueSoonNeedITTasks</name>
+        <order>100</order>
+        <script><![CDATA[// update priority to  High
+
+current.priority=2;
+
+// update the record in db
+current.update();]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-17 19:48:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bccb1aa393c37110e439f1ccebba105c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Update dueSoonNeedITTasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_script_action_bccb1aa393c37110e439f1ccebba105c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-17 19:51:11</sys_updated_on>
+    </sysevent_script_action>
+</record_update>
